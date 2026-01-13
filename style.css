@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.hero {
+  height: 100vh;
+  background: linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.5)),
+              url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1400&q=80') center/cover;
+  color: white;
+}
+
+.skill-badge {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.skill-badge:hover {
+  background-color: #0056b3;
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.navbar a.nav-link:hover {
+  color: #0dcaf0 !important;
+}
+
+ .profile-img {
+  width: 200px;
+  height: 200px;
+  /* object-fit: cover; */
+  border: 2px solid burlywood;
+  margin: 0 auto;
+  display: block;
+  object-fit: cover;
+}
